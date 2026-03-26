@@ -360,7 +360,7 @@ const Header = ({ workflowStatus }) => {
         <div className="flex items-center gap-3">
           {account ? (
             <>
-              {isOwner && <span className="bg-yellow-300 text-amber-900 px-3 py-1 rounded-md font-bold text-sm">ADMIN</span>}
+              {isOwner && <span className="bg-yellow-300 text-amber-900 px-3 py-1 rounded-md font-bold text-sm">ADMIN PORTAL</span>}
               <div className="bg-white/5 px-3 py-2 rounded-md font-mono text-sm">{account.slice(0,6)}...{account.slice(-4)}</div>
               <button onClick={disconnectWallet} className="px-3 py-2 rounded-md border border-white/6 text-white/90 hover:bg-white/3 transition">
                 Disconnect
