@@ -1,19 +1,69 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🏗️ TrustVote DApp
+A secure, transparent, and Decentralized Voting Application built with React. TrustVote leverages blockchain technology to ensure that every vote is immutable, verifiable, and free from central manipulation.
 
-Currently, two official plugins are available:
+🚀 Features
+Wallet Integration: Seamless connection with MetaMask and other browser-based providers.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Real-time Results: Live polling data fetched directly from the smart contract.
 
-## React Compiler
+Decentralized Identity: Prevents double-voting by linking votes to unique wallet addresses.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Responsive UI: Optimized for both desktop and mobile decentralized browsers.
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
+Frontend: React.js
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+State Management: Hooks & Context API
 
+Web3 Library: Ethers.js (or Web3.js)
 
+Styling: Tailwind CSS / Styled Components
 
+Icons: Lucide-react / React-icons
+
+📋 Prerequisites
+Before you begin, ensure you have the following installed:
+
+Node.js (v16.x or higher)
+
+npm or yarn
+
+A browser extension wallet (like MetaMask)
+
+🔧 Installation & Setup
+Clone the repository:
+
+Bash
+git clone https://github.com/your-username/trustvote-frontend.git
+cd trustvote-frontend
+Install dependencies:
+
+Bash
+npm install
+Configure Environment Variables:
+Create a .env file in the root directory and add your contract address:
+
+Code snippet
+REACT_APP_CONTRACT_ADDRESS=0xYourContractAddressHere
+Run the application:
+
+Bash
+npm start
+The app will be available at http://localhost:3000.
+
+🤝 Contributing
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create.
+
+Fork the Project
+
+Create your Feature Branch (git checkout -b feat/AmazingFeature)
+
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+
+Push to the Branch (git push origin feat/AmazingFeature)
+
+Open a Pull Request
+
+📄 License
+Distributed under the MIT License. See LICENSE for more information.
